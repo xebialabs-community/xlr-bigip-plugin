@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--
+THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+-->
+<!--  
+   ********************************************************
+   *            F5
+   ********************************************************
+-->
+  <type type="BigIP.disableInF5" extends="xlrelease.PythonScript">
+      <property name="iconLocation" default="BigIP/F5NetworksLogo.png" hidden="true" />
+      <property name="password" password="true" category="input"/>
+      <property name="address" category="input"/>
+      <property name="connectionType" default="SFTP" category="input" />
+
+      <!-- ######## F5 Parameters ####### -->
+      <property name="bigIpAddress"      category="input" />
+      <property name="bigIpUser"         category="input" />
+      <property name="bigIpPass"         category="input" password="true" />
+      <property name="activePartition"   category="input" />
+      <property name="poolMemberPool"    category="input" />
+      <property name="poolMemberAddress" category="input" />
+      <property name="poolMemberPort"    category="input" />
+
+      <property name="output" required="false" category="output" description="Console output of the process."/>
+      <property name="err" required="false" category="output" description="Error stream of the process."/>
+      <property name="exitCode" required="false" category="output" description="Exit code of the process."/>
+  </type>
+
+  <type type="BigIP.enableInF5" extends="xlrelease.PythonScript">
+      <property name="iconLocation" default="BigIP/F5NetworksLogo.png" hidden="true" />
+      <property name="username" category="input"/>
+      <property name="password" password="true" category="input"/>
+      <property name="address" category="input"/>
+      <property name="connectionType" default="SFTP" category="input" />
+
+      <!-- ######## F5 Parameters ####### -->
+      <property name="bigIpAddress"      category="input" />
+      <property name="bigIpUser"         category="input" />
+      <property name="bigIpPass"         category="input" password="true" />
+      <property name="activePartition"   category="input" />
+      <property name="poolMemberPool"    category="input" />
+      <property name="poolMemberAddress" category="input" />
+      <property name="poolMemberPort"    category="input" />
+
+      <property name="output" required="false" category="output" description="Console output of the process."/>
+      <property name="err" required="false" category="output" description="Error stream of the process."/>
+      <property name="exitCode" required="false" category="output" description="Exit code of the process."/>
+  </type>
+
+
+</synthetic>
