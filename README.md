@@ -1,4 +1,4 @@
-**XL Release HP UFT/QTP Plugin****Introduction:**This document describes the functionality provided by the F5 BIG-IP plugin.
+**XL Release Big IP Plugin****Introduction:**This document describes the functionality provided by the F5 BIG-IP plugin.
 
 Refer to **XL Deploy Reference Manual** for background information on XL Deploy and deployment concepts.
 
