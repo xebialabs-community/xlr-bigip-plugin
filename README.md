@@ -1,5 +1,3 @@
-**DEPRECATED** Use [xlr-f5-plugin](https://github.com/xebialabs-community/xlr-f5-plugin)
-
 **XL Release Big IP Plugin**
 
 **Introduction:**
